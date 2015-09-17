@@ -15,6 +15,7 @@ public class Mint {
 		for (int j = 1; j < numPense; j++) {
 			Integer payout = j;
 			for (int i = numPerDen.length - 1; i >= 0; i--) {
+				Integer numCoins = payout/i;
 				System.out.print(numPerDen[i] + " ");
 				
 			}
